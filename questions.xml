@@ -1,0 +1,274 @@
+<root>
+	<basic>
+		<question level="0" text="Занимаетесь ли Вы зарядкой по утрам?">
+			<option level="1" text="Ежедневно" health="10"></option>
+			<option level="0" text="Иногда занимаюсь, но часто забываю об этом" health="3"></option>
+			<option level="0" text="Никогда" health="-3"></option>
+		</question>
+		<question level="1" text="Бегаете ли Вы на стадионе/в парке/…?">
+			<option level="1" text="Ежедневно" health="10"></option>
+			<option level="1" text="Стараюсь, но иногда не получается" health="5"></option>
+			<option level="0" text="Очень редко" health="1"></option>
+			<option level="0" text="Никогда" health="-2"></option>
+		</question>
+		<question level="1" text="Сколько км в день Вы пробегаете в среднем?">
+			<option level="0" text="0-2" health="4"></option>
+			<option level="0" text="2-5" health="8"></option>
+			<option level="0" text="5-10" health="12"></option>
+			<option level="0" text="Больше 10 км" health="20"></option>
+		</question>
+		<question level="0" text="Посещаете ли Вы тренажерный/фитнесс зал?">
+			<option level="0" text="Ежедневно" health="15"></option>
+			<option level="0" text="Несколько раз в неделю" health="10"></option>
+			<option level="0" text="Не посещаю" health="0"></option>
+		</question>
+		<question level="0" text="С закаливающими процедурами вы знакомы… ">
+			<option level="0" text="С самого детства, да и сейчас практикую" health="8"></option>
+			<option level="0" text="Неплохо, бывают периоды, когда снова к ним возвращаюсь" health="4"></option>
+			<option level="0" text="Понаслышке" health="-2"></option>
+		</question>
+		<question level="0" text="Занимались ли Вы каким-либо активным видом спорта ранее?">
+			<option level="1" text="Да" health="0"></option>
+			<option level="0" text="Нет" health="-2"></option>	
+		</question>
+		<question level="1" text="В течении какого периода времени Вы были увлечены тренировками? ">
+			<option level="0" text="Несколько лет" health="20"></option>
+			<option level="0" text="Около года" health="6"></option>
+			<option level="0" text="Пару месяцев" health="4"></option>
+		</question>
+		<question level="0" text="Вы предпочитаете проводить время в помещении или на улице?">
+			<option level="0" text="В помещении" health="-1"></option>
+			<option level="0" text="На улице" health="1"></option>
+			<option level="0" text="Одинаково" health="0"></option>
+		</question>
+		<question level="0" text="Как вы относились к урокам физкультуры в школе? ">
+			<option level="0" text="Уроки 'физры' нравились" health="2"></option>
+			<option level="0" text="Только ради них школу и посещал" health="4"></option>
+			<option level="0" text="Прогуливал" health="-1"></option>
+			<option level="0" text="Сидел на скамейке весь урок" health="-2"></option>
+		</question>
+		<question level="0" text="Здоровое и правильное питание – это… ">
+			<option level="0" text="Не для меня" health="-2"></option>
+			<option level="0" text="Наше всё" health="2"></option>
+			<option level="0" text="Особой разницы нет" health="-1"></option>
+		</question>
+		<question level="0" text="В холодное время года Вы простужаетесь… ">
+			<option level="0" text="Совсем не часто и обычно быстро выздоравливаю" health="5"></option>
+			<option level="0" text="Иногда могу заболеть надолго и даже с осложнениями" health="0"></option>
+			<option level="0" text="Не вылезаю из простуд" health="-5"></option>
+		</question>
+		<question level="0" text="Бывали ли у вас серьезные травмы?">
+			<option level="0" text="Не серьезнее растяжения связок" health="2"></option>
+			<option level="0" text="Были даже переломы и/или вывихи, но давно, и все хорошо зажило" health="-1"></option>
+			<option level="0" text="К сожалению, это происходит со мной часто" health="-5"></option>
+		</question>
+		<question level="0" text="Какие у вас бывают ощущения при подъеме на высоту (гора, высокие этажи зданий и т.п.)? ">
+			<option level="0" text="В основном приятные – дух захватывает! " health="4"></option>
+			<option level="0" text="Иногда кружится голова, подташнивает" health="-1"></option>
+			<option level="0" text="Мне это трудно дается и/или у меня боязнь высоты" health="-4"></option>
+		</question>
+	</basic>
+	<power>
+		<question level="0" text="Сколько раз Вы можете отжаться? ">
+			<option level="-1" text="До 20-ти раз" second="0"></option>
+			<option level="0" text="21-40" second="10"></option>
+			<option level="0" text="41-80" second="30"></option>
+			<option level="0" text="Больше 80 – не проблема" second="60"></option>
+		</question>
+		<question level="0" text="Максимальное количество подтягиваний за один подход ">
+			<option level="-1" text="До 10-ти" first="5"></option>
+			<option level="0" text="11-20" first="15"></option>
+			<option level="0" text="21-40" first="30"></option>
+			<option level="0" text="Больше 40" first="60"></option>
+		</question>
+		<question level="0" text="Как Вы относитесь к приему стероидов?">
+			<option level="0" text="Строго отрицательно"></option>
+			<option level="0" text="Если нужно ради результата, то я готов на такие меры" first="20" second="20"></option>
+			<option level="0" text="Не определился" first="10" second="10"></option>
+		</question>
+	</power>
+	<speedpower>
+		<question level="0" text="Вы умеете плавать?">
+			<option level="1" text="Да, весьма неплохо" first="20"></option>
+			<option level="1" text="У меня посредственные навыки, но на воде держусь уверенно" first="5"></option>
+			<option level="0" text="Не умею"></option>
+		</question>
+		<question level="1" text="Вы можете проплыть 1 км в спокойной воде (бассейн, озеро)? ">
+			<option level="1" text="Не вызовет трудностей" first="60"></option>
+			<option level="1" text="Нужны периодические передышки, но дистанция достижима" first="40"></option>
+			<option level="1" text="На такие длинные дистанции заплывов не предпринималось" first="0"></option>
+		</question>
+		<question level="1" text="Любите ли Вы ходить в тур походы?">
+			<option level="1" text="Да, походы - моё хобби" second="40" third="40"></option>
+			<option level="1" text="Несколько раз в год хожу, нравится" second="20" third="20"></option>
+			<option level="0" text="Пробовал, не понравилось"></option>
+			<option level="0" text="Ни разу не ходил"></option>
+		</question>
+		<question level="1" text="Какому отдыху отдадите предпочтение: поход в горы, или сплав на байдарке?">
+			<option level="0" text="В горы" second="40"></option>
+			<option level="0" text="На байдарке" third="20"></option>
+			<option level="0" text="Не могу определиться/ Ни одно из этого"></option>
+		</question>
+	</speedpower>
+	<run>
+		<question level="0" text="Можете пробежать 100-метровку за 11 секунд? ">
+			<option level="0" text="В одиннадцать «с копейками вложусь»" first="60"></option>
+			<option level="0" text="10 секунд – мой средний результат" first="80"></option>
+			<option level="0" text="От 12 до 13+ секунд" first="20"></option>
+			<option level="-1" text="Чаще всего результаты выше 14-ти секунд"></option>
+			<option level="0" text="Без понятия..."></option>
+		</question>
+		<question level="0" text="Бегали ли Вы раньше на дистанции больше 3-х км?">
+			<option level="0" text="Да, приходилось" first="10"></option>
+			<option level="0" text="Очень редко"  first="5"></option>
+			<option level="0" text="Не могу вспомнить"></option>
+			<option level="0" text="Нет, такого не было"></option>
+		</question>
+		<question level="0" text="Если бы Вы были бегуном, Вы бы предпочли забеги ...">
+			<option level="0" text="На длинные дистанции"></option>
+			<option level="0" text="На короткие дистанции"></option>
+		</question>
+		<question level="0" text="Умеете ли Вы кататься на велосипеде?">
+			<option level="0" text="Умею"  second="10"></option>
+			<option level="0" text="Не умею"></option>
+		</question>
+		<question level="0" text="Умеете ли Вы кататься на роликах или коньках?">
+			<option level="0" text="Умею" third="10"></option>
+			<option level="0" text="Не умею" third="-20"></option>
+		</question>
+	</run>
+	<fight>
+		<question level="0" text="Считаете ли Вы себя импульсивным человеком?">
+			<option level="0" text="Все решения нужно принимать молниеносно, иначе сомнения приведут к неудаче" second="10"></option>
+			<option level="0" text="Нет, все решения я принимаю взвешенно и обдумав" first="10"></option>
+		</question>
+		<question level="0" text="Вы легко выходите из равновесия?">
+			<option level="0" text="Я человек спокойный и миролюбивый" first="10"></option>
+			<option level="0" text="ХВАТИТ ГЛУПЫХ ВОПРОСОВ!" second="10"></option>
+		</question>
+		<question level="0" text="Вы склонны решать конфликты…? ">
+			<option level="-1" text="Мирным путем"></option>
+			<option level="0" text="Негодяй должен получить по заслугам" first="10" second="10"></option>
+		</question>
+		<question level="0" text="Как Вы относитесь к медитациям и дыхательным практикам?">
+			<option level="0" text="Только так можно достичь концентрации ума и раскрыть весь свой внутренний потенциал" first="30"></option>
+			<option level="0" text="Не практикую, но, возможно, это будет для меня полезным" first="20"></option>
+			<option level="0" text="Это всё глупость" second="10"></option>
+		</question>
+		<question level="0" text="Готовы ли Вы к порциям ударов в нос и челюсть 2-3 раза в неделю?">
+			<option level="0" text="Тяжело в учении, легко в бою" second="50"></option>
+			<option level="0" text="Удары - не для меня, а вот бросить противника через бедро я не против"  first="30"></option>
+			<option level="-1" text="Нет, у меня вообще аллергия на боль"></option>
+		</question>
+	</fight>
+	<game>
+		<question level="0" text="«Если хочешь, чтобы что-то было сделано хорошо, …» ">
+			<option level="1" text="«Сделай это сам»"></option>
+			<option level="0" text="«Это может быть сделано только в команде, не смотря на профессионализм одного из участников»"></option>
+		</question>
+		<question level="1" text="Как Вы считаете, насколько велика доля личного вклада в успех предприятия? ">
+			<option level="1" text="Харизма и волевые качества лидера – это львиная доля успеха"></option>
+			<option level="0" text="Только при высоком взаимодействии и поддержки команды можно достичь цели"></option>
+		</question>
+		<question level="1" text="Как Вы считаете, в групповых видах спорта чаще выигрыш достается команде... ">
+			<option level="0" text="Слаженной и сработанной"></option>
+			<option level="-1" text="В которой присутствует чемпион, тянущий команду к победе"></option>
+		</question>
+		<question level="0" text="Легко ли Вы общаетесь с коллегами по работе/учебы?">
+			<option level="0" text="Да, легко и с удовольствием"></option>
+			<option level="0" text="Особых проблем нет"></option>
+			<option level="-1" text="Глупцы, они просто меня недооценивают"></option>
+		</question>
+		<question level="0" text="Какой игровой счет Вам кажется более разумным? ">
+			<option level="0" text="0-1" first="30"></option>
+			<option level="0" text="7-5" second="30"></option>
+			<option level="0" text="78-92" third="30"></option>
+		</question>
+		<question level="0" text="Часто ли Вы смотрите футбол/баскетбол/хоккей по ТВ?">
+			<option level="0" text="Не пропускаю ни одной игры моей любимой команды" first="30" second="30" third="30"></option>
+			<option level="0" text="Смотрю, если попадаю случайно. Но досмотриваю до конца" first="10" second="10" third="10"></option>
+			<option level="-1" text="Не интересуюсь"></option>
+		</question>
+	</game>
+	<sologame>
+		<question level="0" text="Тяжело ли Вам даются длительные физические нагрузки?">
+			<option level="0" text="Я весьма вынослив" first="40"></option>
+			<option level="0" text="Я готов попытаться, но в результате не уверен" first="20"></option>
+			<option level="-1" text="Устаю после похода в магазин. Нагрузки - не моё"></option>
+		</question>
+		<question level="0" text="Способны ли Вы отбить мяч ракеткой/битой?">
+			<option level="0" text="Конечно" first="30"></option>
+			<option level="0" text="Через раз" first="5"></option>
+			<option level="-1" text="С координацией у меня плохо"></option>
+		</question>
+	</sologame>
+	<coord>
+		<question level="0" text="Вы хорошо танцуете? ">
+			<option level="0" text="Да, ведь мне приходилось заниматься танцами" first="30"></option>
+			<option level="0" text="Для человека, не учившегося специально, говорят, что очень неплохо" first="25"></option>
+			<option level="0" text="Я вообще никогда не танцую"></option>
+		</question>
+		<question level="0" text="Вы можете похвастаться быстротой реакции и хорошей координацией движений? ">
+			<option level="0" text="От природы и/или благодаря занятиям спортом" first="50"></option>
+			<option level="0" text="Когда как и/или чем-либо одним из этого" first="30"></option>
+			<option level="-1" text="Вряд ли"></option>
+		</question>
+	</coord>
+	<techo>
+		<question level="0" text="Приходилось ли Вам управлять яхтой?">
+			<option level="0" text="Да, имею собственную" first="80"></option>
+			<option level="0" text="Мне показывали, как это делать, даже дали порулить" first="50"></option>
+			<option level="0" text="Яхтой? Нет, конечно"></option>
+		</question>
+		<question level="0" text="Совершали ли Вы прыжки с парашютом?">
+			<option level="0" text="Да, несколько раз (или даже много)" second="70"></option>
+			<option level="0" text="Один раз, и мне больше не хочется"></option>
+			<option level="0" text="Не прыгал, но интересно" second="10"></option>
+			<option level="0" text="Это не для меня"></option>
+		</question>
+		<question level="0" text="Умеете ли Вы водить автомобиль?">
+			<option level="1" text="Я опытный водитель" third="30"></option>
+			<option level="1" text="Скорость - моё второе имя. Или третье" third="20"></option>
+			<option level="0" text="Недавно получил права"></option>
+			<option level="0" text="Я идейный пешеход"></option>
+		</question>
+		<question level="1" text="Владеете ли Вы навыками вождения других транспортных средств?">
+			<option level="0" text="От мотоциклов до болидов F1 - я профессионал" third="60"></option>
+			<option level="0" text="Имел возможность водить множество автомобильных моделей" third="40"></option>
+			<option level="0" text="Мне хватает и моего автомобиля" third="10"></option>
+		</question>
+	</techo>
+	<intel>
+		<question level="0" text="Любите ли Вы логические головоломки?">
+			<option level="1" text="Обожаю" first="20"></option>
+			<option level="1" text="Время от времени решаю некоторые" first="10"></option>
+			<option level="0" text="Не фанат"></option>
+		</question>
+		<question level="1" text="Как часто Вы решаете кроссворды, судоку, т.д.?">
+			<option level="0" text="В любое свободное время, если нет других занятий" first="20"></option>
+			<option level="0" text="Раз в неделю, в газете/журнале, который выписываю" first="10"></option>
+			<option level="0" text="Я больше люблю логические игры, чем головоломки такого вида" second="10"></option>
+			<option level="-1" text="Я лучше пойду телевизор посмотрю, чем буду тратить своё время на подобные занятия" ></option>
+		</question>
+		<question level="0" text="Свободное время Вы проводите..?">
+			<option level="1" text="За компьютерными играми"></option>
+			<option level="0" text="За книгой" second="20"></option>
+			<option level="0" text="За телевизором"></option>
+		</question>
+		<question level="1" text="Какие компьютерные игры Вы предпочитаете? ">
+			<option level="0" text="Стратегии"></option>
+			<option level="0" text="Стрелялки"></option>
+			<option level="1" text="Логические" second="10"></option>
+		</question>
+		<question level="1" text="Вы побеждаете компьютер в игре в шахматы на высоком уровне сложности?">
+			<option level="0" text="Часто" second="30"></option>
+			<option level="0" text="50/50" second="15"></option>
+			<option level="0" text="Нет, ни разу"></option>
+		</question>
+		<question level="0" text="Любите ли Вы играть в шахматы?">
+			<option level="0" text="Да, мне нравится эта игра" second="30"></option>
+			<option level="0" text="Я умею играть, но чаще проигрываю, поэтому играю без удовольствия"></option>
+			<option level="-1" text="Это самая скучная игра, которую можно было придумать"></option>
+		</question>
+	</intel>
+</root>
